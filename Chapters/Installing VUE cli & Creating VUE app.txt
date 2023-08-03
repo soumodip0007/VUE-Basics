@@ -1,0 +1,37 @@
+npm install -g @vue/cli
+vue create modal-project
+
+  Default ([Vue 3] babel, eslint) 
+  Default ([Vue 2] babel, eslint)
+  Manually select features => Hit Enter
+
+  (*) Babel => Hit Enter
+  ( ) TypeScript
+  ( ) Progressive Web App (PWA) Support
+  ( ) Router
+  ( ) Vuex
+  ( ) CSS Pre-processors
+  ( ) Linter / Formatter => hit space to deselect it
+  ( ) Unit Testing
+  ( ) E2E Testing
+  
+  Please pick a preset: Manually select features
+  Check the features needed for your project: Babel
+  Choose a version of Vue.js that you want to start the project with (Use arrow keys)
+  3.x => Hit Enter
+  2.x
+
+  Please pick a preset: Manually select features
+  Check the features needed for your project: Babel
+  Choose a version of Vue.js that you want to start the project with 3.x
+  Where do you prefer placing config for Babel, ESLint, etc.? (Use arrow keys)
+  In dedicated config files => Hit Enter
+  In package.json  
+
+  Please pick a preset: Manually select features
+  Check the features needed for your project: Babel
+  Choose a version of Vue.js that you want to start the project with 3.x
+  Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+  Save this as a preset for future projects? (y/N) => press n
+
+npm run serve => To run VUE app

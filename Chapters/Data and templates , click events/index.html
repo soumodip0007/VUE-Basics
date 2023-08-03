@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn VUE</title>
+    <script src="https://unpkg.com/vue@3.0.2/dist/vue.global.js"></script>
+</head>
+<body>
+    <h1>Hello Vue :)</h1>
+
+    <div id="app">
+      <p>{{ title }} - {{ author }} - {{ age }}</p>
+      <button v-on:click="age++">Increase age</button>
+      <button v-on:click="age--">Decrease age</button>
+      <div @click="changeTitle('Attack on Titan')">Change title</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

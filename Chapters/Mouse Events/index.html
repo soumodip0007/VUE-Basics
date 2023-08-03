@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn VUE</title>
+    <script src="https://unpkg.com/vue@3.0.2/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello Vue :)</h1>
+
+    <div id="app">
+      <div class="box" @mouseover="handleEvent($event,5)">mouseover (enter)</div>
+      <div class="box" @mouseleave="handleEvent">mouseleave</div>
+      <div class="box" @dblclick="handleEvent">doubleclick</div>
+      <div class="box" @mousemove="handleMouseMove">position - {{ x }}  {{ y }}</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

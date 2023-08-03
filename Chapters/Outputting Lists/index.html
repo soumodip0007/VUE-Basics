@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn VUE</title>
+    <script src="https://unpkg.com/vue@3.0.2/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Hello Vue :)</h1>
+    <div id="app">
+      <div v-if="showBooks">
+        <ul>
+          <li v-for="book in books">
+             <h3>{{ book.title }}</h3>
+             <p>{{ book.author }}</p>
+          </li>
+        </ul>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
